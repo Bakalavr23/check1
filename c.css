@@ -1,0 +1,91 @@
+body{
+    margin: 0 auto;
+}
+.header_object{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,70px);
+
+    width: 1300px;
+    margin: 0 auto;
+   
+}
+.logo_object{
+    width: 400px;
+
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu_object{
+   
+    display: flex;
+    }
+.main_txt{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about_txt{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.login_txt{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main_menu{
+    width: 200px;
+    height: 65px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.about_menu{
+    width: 100px;
+    height: 65px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.login_menu{
+    width: 200px;
+    height: 65px;
+   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.contact_object{
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2,35px);
+
+}
+.fst_number{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.fst_number::before{
+    content: url(telegram_icon-icons.com_72055.png);
+    
+}
+.scnd_number{
+
+      display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.scnd_number::before{
+    content:url(whatsapp_icon-icons.com_72054.png) ;
+}
+.profile_object{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+.profile_img{
+
+}
