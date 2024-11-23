@@ -89,3 +89,39 @@ display: flex;
 .profile_img{
 
 }
+@media (max-width: 500px) {
+    .header_object{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(1,70px);
+    
+        width: 400px;
+        margin: 0 auto;
+       
+    }
+    .logo_object{
+        width: 200px;
+    
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu_object{
+   
+        display: none;
+        }
+        .contact_object{
+
+            display: none;
+        
+        }
+        .profile_object{
+            width: 160px;
+            height: 70px;
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+            top: 5px;
+        }
+}
+
